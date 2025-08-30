@@ -5,12 +5,12 @@ import styles from "./Navigation.module.css";
 function Navigation() {
     const navItems = [
         { path: "/exercise-day-34", label: "Home" },
-        { path: "/counter-app", label: "Counter App" },
-        { path: "/todo-list-app", label: "Todo List" },
-        { path: "/profile-card", label: "Profile Card" },
-        { path: "/product-list", label: "Products" },
-        { path: "/comment-system", label: "Comments" },
-        { path: "/weather-app", label: "Weather" },
+        { path: "/exercise-day-34/counter-app", label: "Counter App" },
+        { path: "/exercise-day-34/todo-list-app", label: "Todo List" },
+        { path: "/exercise-day-34/profile-card", label: "Profile Card" },
+        { path: "/exercise-day-34/product-list", label: "Products" },
+        { path: "/exercise-day-34/comment-system", label: "Comments" },
+        { path: "/exercise-day-34/weather-app", label: "Weather" },
     ];
 
     const className = ({ isActive }) =>
