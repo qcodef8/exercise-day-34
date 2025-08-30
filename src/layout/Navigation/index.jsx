@@ -4,7 +4,7 @@ import styles from "./Navigation.module.css";
 
 function Navigation() {
     const navItems = [
-        { path: "/", label: "Home" },
+        { path: "/exercise-day-34", label: "Home" },
         { path: "/counter-app", label: "Counter App" },
         { path: "/todo-list-app", label: "Todo List" },
         { path: "/profile-card", label: "Profile Card" },

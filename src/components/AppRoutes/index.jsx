@@ -15,15 +15,25 @@ function AppRoutes() {
             <Navigation />
 
             <Routes>
-                <Route path="/" element={<Home />}></Route>
-                <Route path="/counter-app" element={<CounterApp />}></Route>
-                <Route path="/todo-list-app" element={<TodoListApp />}></Route>
-                <Route path="/profile-card" element={<ProfileCard />}></Route>
-                <Route path="/product-list" element={<ProductList />}></Route>
+                <Route path="/exercise-day-34" element={<Home />}></Route>
                 <Route
-                    path="/comment-system"
+                    path="/exercise-day-34/counter-app"
+                    element={<CounterApp />}></Route>
+                <Route
+                    path="/exercise-day-34/todo-list-app"
+                    element={<TodoListApp />}></Route>
+                <Route
+                    path="/exercise-day-34/profile-card"
+                    element={<ProfileCard />}></Route>
+                <Route
+                    path="/exercise-day-34/product-list"
+                    element={<ProductList />}></Route>
+                <Route
+                    path="/exercise-day-34/comment-system"
                     element={<CommentSystem />}></Route>
-                <Route path="/weather-app" element={<WeatherApp />}></Route>
+                <Route
+                    path="/exercise-day-34/weather-app"
+                    element={<WeatherApp />}></Route>
             </Routes>
         </Router>
     );
