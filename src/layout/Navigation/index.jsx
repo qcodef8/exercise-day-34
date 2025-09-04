@@ -4,7 +4,7 @@ import styles from "./Navigation.module.css";
 
 function Navigation() {
     const navItems = [
-        { path: "/exercise-day-34", label: "Home" },
+        { path: "/exercise-day-34", label: "Home", end: true },
         { path: "/exercise-day-34/counter-app", label: "Counter App" },
         { path: "/exercise-day-34/todo-list-app", label: "Todo List" },
         { path: "/exercise-day-34/profile-card", label: "Profile Card" },
@@ -24,6 +24,7 @@ function Navigation() {
                         <NavLink
                             key={item.path}
                             to={item.path}
+                            end={item.end}
                             className={className}>
                             {item.label}
                         </NavLink>
